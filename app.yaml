@@ -1,5 +1,5 @@
 runtime: python312
-entrypoint: gunicorn app:app
+entrypoint: gunicorn main:app
 
 instance_class: F1
 
